@@ -1,0 +1,19 @@
+{
+  "name": "d1-mutex-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8799"
+  },
+  "dependencies": {
+    "better-auth": "1.7.6"
+  },
+  "devDependencies": {
+    "wrangler": "4.145.0"
+  },
+  "allowScripts": {
+    "workerd@1.20260930.2": true,
+    "esbuild@0.28.1": true,
+    "sharp@0.35.4": true
+  }
+}
